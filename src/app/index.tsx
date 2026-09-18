@@ -1,8 +1,8 @@
 /*Ian Vanderkley 000981578 
 Assignment 1 - CPRG 303
 https://github.com/IanVanderkley/CPRG303-assignment1
-I tried to make an app that looks like the Youtube Shorts UI, I had many issues getting the correct Icons but tried my best.
-Found my Icons at https://icons8.com/icons and https://unicode.org/Public/18.0.0/charts/#symbols
+I recreated the YouTube Shorts UI
+Icons sourced at https://icons8.com/icons and https://unicode.org/Public/18.0.0/charts/#symbols
 Other Sources for Images are 
 https://www.youtube.com/@vandermooseR6 for the youtube profile picture and https://www.youtube.com/@JustTalkinCollects for the JustTalkinCollects profile picture
 As well as https://www.youtube.com/watch?v=KeQ9TIjOPm8 for the bottom right music Icon 
@@ -257,13 +257,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 
-  actionIcon: {
-    color: "#FFFFFF",
-    fontSize: 24,
-    lineHeight: 38,
-    textAlign: "center",
-  },
-
   actionLabel: {
     color: "#FFFFFF",
     fontSize: 12,
@@ -272,8 +265,8 @@ const styles = StyleSheet.create({
   },
 
   actionThumbnail: {
-    width: 42,
-    height: 42,
+    width: 30,
+    height: 30,
     borderRadius: 6,
     borderWidth: 2,
     marginTop: 7,
@@ -434,13 +427,5 @@ const styles = StyleSheet.create({
     fontSize: 10,
     fontWeight: "600",
     marginHorizontal: 3,
-  },
-
-  musicThumbnail: {
-    width: 38,
-    height: 38,
-    borderRadius: 6,
-    borderWidth: 1,
-    borderColor: "#FFFFFF",
   },
 });
