@@ -75,32 +75,32 @@ export default function Index() {
           {/* Right side controls */}
           <View style={styles.actionColumn}>
             <ImageActionItem
-              iconSource={require("C:\\CPRG303\\CPRG303-assignment1\\src\\app\\assets\\whiteHeart.png")}
+              iconSource={require("./assets/whiteHeart.png")}
               label="7"
             />
 
             <ImageActionItem
-              iconSource={require("C:\\CPRG303\\CPRG303-assignment1\\src\\app\\assets\\comment.png")}
+              iconSource={require("./assets/comment.png")}
               label="0"
             />
 
             <ImageActionItem
-              iconSource={require("C:\\CPRG303\\CPRG303-assignment1\\src\\app\\assets\\bookmark.png")}
+              iconSource={require("./assets/bookmark.png")}
               label="Save"
             />
 
             <ImageActionItem
-              iconSource={require("C:\\CPRG303\\CPRG303-assignment1\\src\\app\\assets\\Share.png")}
+              iconSource={require("./assets/Share.png")}
               label="Share"
             />
 
             <ImageActionItem
-              iconSource={require("C:\\CPRG303\\CPRG303-assignment1\\src\\app\\assets\\remix.png")}
+              iconSource={require("./assets/remix.png")}
               label="734"
             />
 
             <Image
-              source={require("C:\\CPRG303\\CPRG303-assignment1\\src\\app\\assets\\Thumbnail.jpg")}
+              source={require("./assets/Thumbnail.jpg")}
               style={styles.actionThumbnail}
               resizeMode="cover"
             />
@@ -110,7 +110,7 @@ export default function Index() {
           <View style={styles.detailsSection}>
             <View style={styles.channelRow}>
               <Image
-                source={require("C:\\CPRG303\\CPRG303-assignment1\\src\\app\\assets\\JustTalkinCollects_profile.jpg")}
+                source={require("./assets/JustTalkinCollects_profile.jpg")}
                 style={styles.channelAvatar}
                 resizeMode="cover"
               />
@@ -145,7 +145,7 @@ export default function Index() {
           </View>
         </View>
 
-        {/* Small progress line */}
+        {/* Video progress line */}
         <View style={styles.progressTrack}>
           <View style={styles.progressFill} />
         </View>
@@ -153,12 +153,12 @@ export default function Index() {
         {/* Bottom YouTube navigation */}
         <View style={styles.bottomNav}>
           <ImageNavItem
-            iconSource={require("C:\\CPRG303\\CPRG303-assignment1\\src\\app\\assets\\home.png")}
+            iconSource={require("./assets/home.png")}
             label="Home"
           />
 
           <ImageNavItem
-            iconSource={require("C:\\CPRG303\\CPRG303-assignment1\\src\\app\\assets\\shorts.png")}
+            iconSource={require("./assets/shorts.png")}
             label="Shorts"
           />
 
@@ -169,17 +169,17 @@ export default function Index() {
           </View>
 
           <ImageNavItem
-            iconSource={require("C:\\CPRG303\\CPRG303-assignment1\\src\\app\\assets\\subscriptions.png")}
+            iconSource={require("./assets/subscriptions.png")}
             label="Subscriptions"
           />
 
           <ImageNavItem
-            iconSource={require("C:\\CPRG303\\CPRG303-assignment1\\src\\app\\assets\\vandermooseProfile.jpg")}
+            iconSource={require("./assets/vandermooseProfile.jpg")}
             label="You"
           />
         </View>
 
-        {/* Required assignment Alert button */}
+        {/* Alert button */}
         <View style={styles.alertSection}>
           <Button
             title="Alert"
@@ -202,7 +202,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#000000",
   },
 
-  // Main video -------------------------------------------------
+  // Main video
 
   videoArea: {
     flex: 1,
@@ -216,7 +216,7 @@ const styles = StyleSheet.create({
     height: "100%",
   },
 
-  // Top search/menu --------------------------------------------
+  // Top search/menu
 
   topBar: {
     position: "absolute",
@@ -239,7 +239,7 @@ const styles = StyleSheet.create({
     lineHeight: 40,
   },
 
-  // Right action bar -------------------------------------------
+  // Right action bar
 
   actionColumn: {
     position: "absolute",
@@ -285,7 +285,7 @@ const styles = StyleSheet.create({
     height: 24,
   },
 
-  // Channel information ---------------------------------------
+  // Channel information
 
   detailsSection: {
     position: "absolute",
@@ -332,7 +332,7 @@ const styles = StyleSheet.create({
     marginTop: 6,
   },
 
-  // Progress line ----------------------------------------------
+  // Progress line
 
   progressTrack: {
     width: "100%",
@@ -346,7 +346,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFFFFF",
   },
 
-  // Bottom navigation -----------------------------------------
+  // Bottom navigation
 
   bottomNav: {
     height: 45,
@@ -392,14 +392,14 @@ const styles = StyleSheet.create({
     borderRadius: 12,
   },
 
-  // Required Alert button --------------------------------------
+  // Required Alert button
 
   alertSection: {
     backgroundColor: "#000000",
     paddingHorizontal: 20,
     paddingVertical: 10,
   },
-  // Music information -----------------------------------------
+  // Music information
 
   musicRow: {
     position: "absolute",
@@ -411,6 +411,8 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     gap: 8,
   },
+
+  // used rgba to match the youtube shorts music bar opacity
 
   musicBar: {
     backgroundColor: "rgba(70, 70, 70, 0.5)",
