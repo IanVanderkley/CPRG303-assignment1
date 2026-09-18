@@ -1,4 +1,4 @@
-/*Ian Vanderkley 000981578 
+/*Ian Vanderkley
 Assignment 1 - CPRG 303
 https://github.com/IanVanderkley/CPRG303-assignment1
 I recreated the YouTube Shorts UI
